@@ -1,0 +1,17 @@
+.code_line {
+  font-family: var(--font-code);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.code_line--tag {
+  color: var(--blue-color);
+}
+
+.code_line--attribute {
+  color: var(--red-color);
+}
+
+.code_line--value {
+  color: var(--yellow-color);
+}

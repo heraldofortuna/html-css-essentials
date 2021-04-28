@@ -14,6 +14,9 @@ main {
 .container {
   background-color: khaki;
   flex: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   padding: 16px 8px;
 }
 
@@ -33,6 +36,9 @@ main {
   line-height: 28px;
 }
 
-.code-content {
+.code_content {
   background-color: var(--gray3-color);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
