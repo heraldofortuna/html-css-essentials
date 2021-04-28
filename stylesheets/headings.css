@@ -1,0 +1,12 @@
+.headings {
+  background-color: hotpink;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.headings__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
