@@ -1,0 +1,4 @@
+.wrapper {
+  background-color: var(--gray2-color);
+  min-height: 100vh;
+}
