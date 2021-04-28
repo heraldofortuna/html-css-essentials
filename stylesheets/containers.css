@@ -17,6 +17,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  border: 1px solid var(--gray2-color);
   padding: 16px 8px;
 }
 
@@ -36,9 +37,26 @@ main {
   line-height: 28px;
 }
 
+.section_content {
+  background-color: hotpink;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .code_content {
   background-color: var(--gray3-color);
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+.headings__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.paragraph_content span {
+  font-weight: 700;
 }
