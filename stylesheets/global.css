@@ -16,6 +16,7 @@
   --font-code: "Fira Code", monospace;
   --font-heading: "Piazzolla", serif;
   --font-paragraph: "Montserrat", sans-serif;
+  --font-sidebar: "Inter", sans-serif;
 }
 
 * {
@@ -23,6 +24,8 @@
   font-family: var(--font-body);
   font-style: normal;
   font-weight: 400;
+  text-decoration: none;
+  list-style: none;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
