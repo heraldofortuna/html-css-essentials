@@ -60,3 +60,15 @@ main {
 .paragraph_content span {
   font-weight: 700;
 }
+
+.quote_content blockquote {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid var(--gray5-color);
+  padding: 16px;
+}
+
+.quote_content h6 {
+  text-transform: uppercase;
+}
