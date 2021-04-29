@@ -1,6 +1,5 @@
 .button {
   background-color: var(--light-color);
-  height: 40px;
   font-family: var(--font-paragraph);
   font-size: 16px;
   line-height: 24px;
@@ -10,7 +9,7 @@
   gap: 8px;
   border: none;
   border-radius: 8px;
-  padding: 0 16px;
+  padding: 8px 16px;
   cursor: pointer;
 }
 
@@ -41,4 +40,16 @@
 
 .button--transparent {
   background-color: transparent;
+}
+
+.button--icon {
+  height: 40px;
+}
+
+.button--small {
+  padding: 4px 8px;
+}
+
+.button--large {
+  padding: 12px 32px;
 }

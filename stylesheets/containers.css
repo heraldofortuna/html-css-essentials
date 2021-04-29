@@ -140,9 +140,11 @@ main {
   line-height: 22px;
 }
 
+/** Buttons section **/
+
 .buttons_content {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   gap: 8px;
 }
