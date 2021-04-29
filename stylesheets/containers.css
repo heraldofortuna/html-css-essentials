@@ -180,3 +180,10 @@ main {
   display: flex;
   gap: 16px;
 }
+
+/** List Items section **/
+
+.list-item_content {
+  display: flex;
+  gap: 16px;
+}

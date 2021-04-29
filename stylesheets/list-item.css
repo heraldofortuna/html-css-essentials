@@ -1,0 +1,17 @@
+.list-item {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  border: 1px solid var(--light-color);
+  padding: 8px 16px;
+}
+
+.list-item--hover {
+  background-color: var(--light-color);
+}
+
+.list-item--active {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
