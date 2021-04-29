@@ -148,3 +148,28 @@ main {
   align-items: flex-end;
   gap: 8px;
 }
+
+/** Images section **/
+
+.images_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  padding: 16px 8px;
+}
+
+.image_element {
+  background-image: url("https://via.placeholder.com/100");
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+.image_element--circle {
+  border-radius: 100px;
+}
+
+.image_element--shadow {
+  filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.2));
+}
