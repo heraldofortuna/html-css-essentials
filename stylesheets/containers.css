@@ -72,3 +72,23 @@ main {
 .quote_content h6 {
   text-transform: uppercase;
 }
+
+.color_element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.color_element__img {
+  background-color: var(--blue-color);
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+}
+
+.color_element__name {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 22px;
+}
