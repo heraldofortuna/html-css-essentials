@@ -61,6 +61,8 @@ main {
   font-weight: 700;
 }
 
+/** Quote section **/
+
 .quote_content blockquote {
   display: flex;
   flex-direction: column;
@@ -73,6 +75,14 @@ main {
   text-transform: uppercase;
 }
 
+/** Colors section **/
+
+.colors_content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
 .color_element {
   display: flex;
   flex-direction: row;
@@ -81,10 +91,45 @@ main {
 }
 
 .color_element__img {
-  background-color: var(--blue-color);
   height: 24px;
   width: 24px;
   border-radius: 24px;
+}
+
+.color_element--blue {
+  background-color: var(--blue-color);
+}
+
+.color_element--green {
+  background-color: var(--green-color);
+}
+
+.color_element--yellow {
+  background-color: var(--yellow-color);
+}
+
+.color_element--red {
+  background-color: var(--red-color);
+}
+
+.color_element--midnight {
+  background-color: var(--midnight-color);
+}
+
+.color_element--light {
+  background-color: var(--light-color);
+}
+
+.color_element--white {
+  background-color: var(--white-color);
+}
+
+.color_element--gray {
+  background-color: var(--gray1-color);
+}
+
+.color_element--black {
+  background-color: var(--black-color);
 }
 
 .color_element__name {
