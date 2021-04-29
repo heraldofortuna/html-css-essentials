@@ -12,7 +12,6 @@ main {
 }
 
 .container {
-  background-color: khaki;
   flex: 4;
   display: flex;
   flex-direction: column;
@@ -38,7 +37,6 @@ main {
 }
 
 .section_content {
-  background-color: hotpink;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -51,11 +49,15 @@ main {
   padding: 20px;
 }
 
+/** Headings section **/
+
 .headings__content {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
+/** Paragraph section **/
 
 .paragraph_content span {
   font-weight: 700;
