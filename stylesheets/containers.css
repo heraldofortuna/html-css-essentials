@@ -187,3 +187,11 @@ main {
   display: flex;
   gap: 16px;
 }
+
+/** Checkbox Input section **/
+
+.checkbox_content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
