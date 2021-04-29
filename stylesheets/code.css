@@ -15,3 +15,7 @@
 .code_line--value {
   color: var(--yellow-color);
 }
+
+.identation {
+  margin: 0 0 0 16px;
+}

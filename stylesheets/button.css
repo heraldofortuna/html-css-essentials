@@ -12,3 +12,32 @@
   padding: 8px 16px;
   cursor: pointer;
 }
+
+.button--primary {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
+.button--secundary {
+  background-color: var(--gray1-color);
+  color: var(--white-color);
+}
+
+.button--success {
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+
+.button--warning {
+  background-color: var(--yellow-color);
+  color: var(--white-color);
+}
+
+.button--danger {
+  background-color: var(--red-color);
+  color: var(--white-color);
+}
+
+.button--transparent {
+  background-color: transparent;
+}
