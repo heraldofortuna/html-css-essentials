@@ -173,3 +173,10 @@ main {
 .image_element--shadow {
   filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.2));
 }
+
+/** Tabs section **/
+
+.tabs_content {
+  display: flex;
+  gap: 16px;
+}
