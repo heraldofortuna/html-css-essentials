@@ -3,3 +3,30 @@
   align-items: center;
   gap: 8px;
 }
+
+.checkbox_group--horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.checkbox_group--vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.checkbox_group__element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-group_content span {
+  color: var(--red-color);
+  font-family: var(--font-paragraph);
+  font-size: 12px;
+  line-height: 20px;
+}
