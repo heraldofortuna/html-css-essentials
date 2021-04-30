@@ -12,11 +12,11 @@
   cursor: pointer;
 }
 
-.tab--hover {
+.tab:hover {
   color: var(--blue-color);
 }
 
-.tab--active {
+.tab:active {
   background-color: var(--white-color);
   color: var(--blue-color);
   box-shadow: inset 1px 0px 0px var(--blue-color),
