@@ -32,6 +32,7 @@
 }
 
 .input-text_content input {
+  width: 256px;
   font-family: var(--font-paragraph);
   font-size: 16px;
   line-height: 24px;
@@ -71,4 +72,40 @@
   font-family: var(--font-paragraph);
   font-size: 16px;
   line-height: 24px;
+}
+
+.group_content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.group_content label {
+  font-family: var(--font-paragraph);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.group_content--column {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.group_content--inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.group_content span {
+  color: var(--red-color);
+  font-family: var(--font-paragraph);
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.error input {
+  border: 1px solid var(--red-color);
 }
