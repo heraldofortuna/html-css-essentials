@@ -22,3 +22,10 @@
   box-shadow: inset 1px 0px 0px var(--blue-color),
     inset -1px 0px 0px var(--blue-color), inset 0px 1px 0px var(--blue-color);
 }
+
+.tab--active {
+  background-color: var(--white-color);
+  color: var(--blue-color);
+  box-shadow: inset 1px 0px 0px var(--blue-color),
+    inset -1px 0px 0px var(--blue-color), inset 0px 1px 0px var(--blue-color);
+}
