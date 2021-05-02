@@ -1,4 +1,5 @@
 .list-item {
+  width: 175px;
   font-family: var(--font-heading);
   font-weight: 600;
   font-size: 20px;
@@ -13,6 +14,11 @@
 }
 
 .list-item:active {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
+.list-item--active {
   background-color: var(--blue-color);
   color: var(--white-color);
 }
