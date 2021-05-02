@@ -201,3 +201,11 @@ main {
   flex-direction: column;
   gap: 8px;
 }
+
+/** Table Cells section **/
+
+.table-cells_content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

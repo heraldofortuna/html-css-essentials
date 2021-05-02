@@ -1,0 +1,30 @@
+.table-cells_content table {
+  width: 180px;
+  border-spacing: 16px;
+  border-collapse: separate;
+}
+
+.table-cells_content th,
+.table-cells_content td {
+  text-align: left;
+  padding: 14px 12px;
+}
+
+.table-cells_content th {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 2px solid var(--gray1-color);
+}
+
+.table-cells_content td {
+  font-family: var(--font-paragraph);
+  font-size: 16px;
+  line-height: 24px;
+  border-bottom: 1px solid var(--light-color);
+}
+
+.striped-cell {
+  background-color: var(--light-color);
+}
