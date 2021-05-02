@@ -1,0 +1,8 @@
+.banner_content h1,
+.banner_content h5 {
+  color: var(--white-color);
+}
+
+.banner_content h5 {
+  margin: 24px 0 48px 0;
+}

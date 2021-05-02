@@ -209,3 +209,14 @@ main {
   flex-direction: column;
   gap: 16px;
 }
+
+/** Banner section **/
+
+.banner_content {
+  height: 322px;
+  width: 768px;
+  background-image: url("../assets/banner-image.png");
+  background-position: center;
+  background-size: cover;
+  padding: 48px 96px;
+}
