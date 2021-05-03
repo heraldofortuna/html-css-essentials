@@ -202,6 +202,14 @@ main {
   gap: 8px;
 }
 
+/** Radio-Button Input section **/
+
+.radio-button_content {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
 /** Table Cells section **/
 
 .table-cells_content {
