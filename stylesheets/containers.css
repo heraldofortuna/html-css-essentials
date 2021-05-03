@@ -220,3 +220,9 @@ main {
   background-size: cover;
   padding: 48px 96px;
 }
+
+/** Card section **/
+
+.card_content {
+  padding: 16px;
+}
