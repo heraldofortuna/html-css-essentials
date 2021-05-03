@@ -16,8 +16,6 @@ This is my first project of Codeable. Codeable is a peruvian bootcamp of full st
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,8 +34,8 @@ This is my first project of Codeable. Codeable is a peruvian bootcamp of full st
 
 ### Links
 
-- Solution URL: [Solution link](https://github.com/heraldofortuna/html-css-essentials)
-- Live Site URL: [Live site link](https://heraldofortuna.github.io/html-css-essentials/)
+- [Solution Link](https://github.com/heraldofortuna/html-css-essentials)
+- [Live Site Link](https://heraldofortuna.github.io/html-css-essentials/)
 
 ## My process
 
