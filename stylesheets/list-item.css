@@ -22,3 +22,9 @@
   background-color: var(--blue-color);
   color: var(--white-color);
 }
+
+.list-item--active:hover,
+.list-item--active:active {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
