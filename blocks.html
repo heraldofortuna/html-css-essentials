@@ -294,8 +294,8 @@
           </section>
           <section class="section_content">
             <h2 class="subtitle">Form</h2>
-            <article>
-              <form action="">
+            <article class="form_content">
+              <form action="" class="form">
                 <h3>Update your profile</h3>
                 <div class="group_content--column input-text_content">
                   <label for="email"><span>*</span> Email</label>
@@ -304,6 +304,52 @@
                 <div class="group_content--column input-text_content">
                   <label for="email"><span>*</span> Email</label>
                   <input type="text" id="email" placeholder="Placeholder" />
+                </div>
+                <article class="checkbox-group_content">
+                  <p>Choose horizontal options:</p>
+                  <div class="checkbox_group--horizontal">
+                    <div class="checkbox_group__element">
+                      <input type="radio" id="" checked />
+                      <label for=""><p>Option 1</p></label>
+                    </div>
+                    <div class="checkbox_group__element">
+                      <input type="radio" id="" />
+                      <label for=""><p>Option 2</p></label>
+                    </div>
+                    <div class="checkbox_group__element">
+                      <input type="radio" id="" />
+                      <label for=""><p>Option 3</p></label>
+                    </div>
+                  </div>
+                </article>
+                <article class="dropdown_content">
+                  <p>Country</p>
+                  <select name="" id="">
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                  </select>
+                </article>
+                <article class="checkbox-group_content">
+                  <p>Choose horizontal options:</p>
+                  <div class="checkbox_group--horizontal">
+                    <div class="checkbox_group__element">
+                      <input type="checkbox" id="" checked />
+                      <label for=""><p>Horizontal 1</p></label>
+                    </div>
+                    <div class="checkbox_group__element">
+                      <input type="checkbox" id="" />
+                      <label for=""><p>Horizontal 2</p></label>
+                    </div>
+                    <div class="checkbox_group__element">
+                      <input type="checkbox" id="" />
+                      <label for=""><p>Horizontal 3</p></label>
+                    </div>
+                  </div>
+                </article>
+                <div class="form__buttons">
+                  <button class="button button--primary">Submit</button>
+                  <button class="button button--secundary">Cancel</button>
                 </div>
               </form>
             </article>

@@ -234,3 +234,9 @@ main {
 .card_content {
   padding: 16px;
 }
+
+/** Form section */
+
+.form_content {
+  padding: 16px;
+}
