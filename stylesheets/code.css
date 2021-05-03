@@ -25,3 +25,7 @@
 .identation--double {
   margin: 0 0 0 32px;
 }
+
+.identation--triple {
+  margin: 0 0 0 48px;
+}

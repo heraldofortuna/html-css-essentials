@@ -1,3 +1,35 @@
+.table {
+  border: 1px solid var(--gray1-color);
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table th,
+.table td {
+  width: 180px;
+  text-align: left;
+  padding: 12px;
+}
+
+.table th {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 1px solid var(--gray4-color);
+}
+
+.table td {
+  font-family: var(--font-paragraph);
+  font-size: 16px;
+  line-height: 24px;
+  border-top: 1px solid var(--gray4-color);
+}
+
+.stripped {
+  background-color: var(--light-color);
+}
+
 .table-cells_content table {
   width: 180px;
   border-spacing: 16px;
