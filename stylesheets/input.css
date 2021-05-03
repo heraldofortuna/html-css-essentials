@@ -52,6 +52,16 @@
   border-radius: 8px;
 }
 
+.input-text_content span {
+  color: var(--red-color);
+}
+
+.dropdown_content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .dropdown_content select {
   width: 256px;
   font-family: var(--font-paragraph);

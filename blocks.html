@@ -295,55 +295,62 @@
           <section class="section_content">
             <h2 class="subtitle">Form</h2>
             <article class="form_content">
-              <form action="" class="form">
+              <form class="form">
                 <h3>Update your profile</h3>
                 <div class="group_content--column input-text_content">
-                  <label for="email"><span>*</span> Email</label>
+                  <label for="email">
+                    <p><span>*</span> Name</p></label
+                  >
                   <input type="text" id="email" placeholder="Placeholder" />
                 </div>
                 <div class="group_content--column input-text_content">
-                  <label for="email"><span>*</span> Email</label>
+                  <label for="email"
+                    ><p><span>*</span> Email</p></label
+                  >
                   <input type="text" id="email" placeholder="Placeholder" />
                 </div>
                 <article class="checkbox-group_content">
-                  <p>Choose horizontal options:</p>
+                  <p>Gender</p>
                   <div class="checkbox_group--horizontal">
                     <div class="checkbox_group__element">
                       <input type="radio" id="" checked />
-                      <label for=""><p>Option 1</p></label>
+                      <label for=""><p>Female</p></label>
                     </div>
                     <div class="checkbox_group__element">
                       <input type="radio" id="" />
-                      <label for=""><p>Option 2</p></label>
+                      <label for=""><p>Male</p></label>
                     </div>
                     <div class="checkbox_group__element">
                       <input type="radio" id="" />
-                      <label for=""><p>Option 3</p></label>
+                      <label for=""><p>Other</p></label>
                     </div>
                   </div>
                 </article>
-                <article class="dropdown_content">
+                <article class="dropdown_content container--vertical">
                   <p>Country</p>
                   <select name="" id="">
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option value="Select your option" disabled selected>
+                      Select your option
+                    </option>
+                    <option value="Peru">Peru</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Argentina">Argentina</option>
                   </select>
                 </article>
                 <article class="checkbox-group_content">
-                  <p>Choose horizontal options:</p>
+                  <p>Favorite languages</p>
                   <div class="checkbox_group--horizontal">
                     <div class="checkbox_group__element">
                       <input type="checkbox" id="" checked />
-                      <label for=""><p>Horizontal 1</p></label>
+                      <label for=""><p>Ruby</p></label>
                     </div>
                     <div class="checkbox_group__element">
                       <input type="checkbox" id="" />
-                      <label for=""><p>Horizontal 2</p></label>
+                      <label for=""><p>JS</p></label>
                     </div>
                     <div class="checkbox_group__element">
                       <input type="checkbox" id="" />
-                      <label for=""><p>Horizontal 3</p></label>
+                      <label for=""><p>Python</p></label>
                     </div>
                   </div>
                 </article>
@@ -353,6 +360,49 @@
                 </div>
               </form>
             </article>
+            <div class="code_content"></div>
+          </section>
+          <section class="section_content">
+            <h2 class="subtitle">Table</h2>
+            <article>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Phone</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Some Name</td>
+                    <td>N01</td>
+                    <td>+51 123456789</td>
+                    <td>Active</td>
+                  </tr>
+                  <tr>
+                    <td>Other Name</td>
+                    <td>N02</td>
+                    <td>+51 123456789</td>
+                    <td>Active</td>
+                  </tr>
+                  <tr>
+                    <td>One More</td>
+                    <td>N03</td>
+                    <td>+51 123456789</td>
+                    <td>Active</td>
+                  </tr>
+                  <tr>
+                    <td>Last One</td>
+                    <td>N04</td>
+                    <td>+51 123456789</td>
+                    <td>Active</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+            <div class="code_content"></div>
           </section>
         </div>
       </main>
