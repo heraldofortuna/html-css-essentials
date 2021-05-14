@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Montserrat:wght@400;700&family=Piazzolla:wght@400;700&family=Inter:wght@400;700&family=Red+Hat+Display:wght@400;700&display=swap");
+
+@import url("./global.css");
+@import url("./containers.css");
+@import url("./components/header.css");
+@import url("./components/sidebar.css");
+@import url("./components/headings.css");
+@import url("./components/code.css");
+@import url("./components/button.css");
+@import url("./components/tab.css");
+@import url("./components/list-item.css");
+@import url("./components/input.css");
+@import url("./components/table.css");
+@import url("./components/banner.css");
+@import url("./components/card.css");
+@import url("./components/form.css");
