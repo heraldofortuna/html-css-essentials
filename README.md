@@ -61,7 +61,19 @@ I learned how to write html label as text inside another html tag.
 </code>
 ```
 
+### Continued development
+
+Now I will continue with another Codeable project.
+
+### Useful resources
+
+I used the guides found on Codeable website. Only that.
+
 ## Author
 
 - Codeable - [Codeable](https://www.codeable.la/)
 - Twitter - [@heraldofortuna](https://twitter.com/heraldofortuna)
+
+## Acknowledgments
+
+To Diego, Wences and Deyvi, my mentors.
